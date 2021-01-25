@@ -11,6 +11,7 @@ const httpLink = createHttpLink({
   uri: BASE_URL,
 });
 
+// replace your own token in Authorization: "bearer ~yourToken~"
 const authLink = setContext((_, { headers }) => {
   return {
     headers: {
