@@ -1,6 +1,9 @@
 # UI
 Find the final output of the UI through the file "UI.png"
 
+# GraphQL
+replace with your own token in the file /src/index.js to get access to the Github V4 API to fetch data.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
